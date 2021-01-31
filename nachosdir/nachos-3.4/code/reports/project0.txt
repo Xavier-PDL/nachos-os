@@ -1,0 +1,33 @@
+Xavier Ponce de Leon
+Mordechai Katz
+Carlos Bermudez
+Rasha Rahaman
+
+a) Experience installing Nachos w/ platform details
+
+Installing and building nachos was a straight-forward process. We simply used
+wget to download the tarball from the provided URL and extracted the contents
+to a directory of our choosing. The platform we're using to compile and run 
+NACHOS is Ocelot which is a CentOS 8 system which the school has provided 
+remote access to.
+
+b) Experience with the tests
+
+Again, our experience with the tests were smooth and there were no real
+surprises. After we compiled Nachos, executing the tests was as simple as
+executing any other program in a Unix environment. The threads program ran as
+expected, printing out how many times each of the two threads looped. After the
+four loops and the program finishes execution, the machine halts and displays 
+additional statistical information such as the number of ticks passed. The 
+userprog demo also ran as expected, simply printing a halt message and the same 
+statistical information.
+
+c) A description of the Thread class in nachos.
+
+The Thread class, as described by comments found within the Nachos source code,
+describes a "thread control block" data-structure which represents a single
+thread of execution. Threads have a fixed stack size of 4KB + 2 pages and are 
+also capable of allocating memory for their stack Threads have a status member
+indicating if the thread is currently running, ready or blocked. Threads can be 
+forked, yield the processor to other threads, put to sleep or finished. 
+Threads can also check if the stack has been overflowed. 
