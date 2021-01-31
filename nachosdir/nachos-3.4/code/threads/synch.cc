@@ -66,13 +66,21 @@ Semaphore::P()
 {
     IntStatus oldLevel = interrupt->SetLevel(IntOff);	// disable interrupts
     
+#if defined(CHANGED) && defined(THREADS)
+    DEBUG('t', "[SYNC] Entered Semaphore::P()\n"); 
+#endif
     while (value == 0) { 			// semaphore not available
+#if defined(CHANGED) && defined(THREADS)
+    DEBUG('t', "[SYNC] Thread waiting...\n"); 
+#endif
 	queue->Append((void *)currentThread);	// so go to sleep
 	currentThread->Sleep();
     } 
     value--; 					// semaphore available, 
 						// consume its value
-    
+#if defined(CHANGED) && defined(THREADS)
+    DEBUG('t', "[SYNC] Exiting Semaphore::P()\n"); 
+#endif
     (void) interrupt->SetLevel(oldLevel);	// re-enable interrupts
 }
 
@@ -90,10 +98,21 @@ Semaphore::V()
     Thread *thread;
     IntStatus oldLevel = interrupt->SetLevel(IntOff);
 
+#if defined(CHANGED) && defined(THREADS)
+    DEBUG('t', "[SYNC] Entered Semaphore::V()\n"); 
+#endif
     thread = (Thread *)queue->Remove();
     if (thread != NULL)	   // make thread ready, consuming the V immediately
-	scheduler->ReadyToRun(thread);
+    {
+#if defined(CHANGED) && defined(THREADS)
+        DEBUG('t', "[SYNC] Making thread ready...\n"); 
+#endif
+        scheduler->ReadyToRun(thread);
+    }
     value++;
+#if defined(CHANGED) && defined(THREADS)
+    DEBUG('t', "[SYNC] Exiting Semaphore::V()\n"); 
+#endif
     (void) interrupt->SetLevel(oldLevel);
 }
 

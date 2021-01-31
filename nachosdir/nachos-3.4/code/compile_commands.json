@@ -1,6 +1,6 @@
 [
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/threads",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/threads",
   "arguments": [
    "g++",
    "-m32",
@@ -13,13 +13,14 @@
    "-DTHREADS",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../machine/timer.cc"
   ],
   "file": "../machine/timer.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/threads",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/threads",
   "arguments": [
    "g++",
    "-m32",
@@ -32,13 +33,14 @@
    "-DTHREADS",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../threads/main.cc"
   ],
   "file": "../threads/main.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/threads",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/threads",
   "arguments": [
    "g++",
    "-m32",
@@ -51,13 +53,14 @@
    "-DTHREADS",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../threads/list.cc"
   ],
   "file": "../threads/list.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/threads",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/threads",
   "arguments": [
    "g++",
    "-m32",
@@ -70,13 +73,14 @@
    "-DTHREADS",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../threads/scheduler.cc"
   ],
   "file": "../threads/scheduler.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/threads",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/threads",
   "arguments": [
    "g++",
    "-m32",
@@ -89,13 +93,14 @@
    "-DTHREADS",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../threads/synch.cc"
   ],
   "file": "../threads/synch.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/threads",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/threads",
   "arguments": [
    "g++",
    "-m32",
@@ -108,13 +113,14 @@
    "-DTHREADS",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../threads/synchlist.cc"
   ],
   "file": "../threads/synchlist.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/threads",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/threads",
   "arguments": [
    "g++",
    "-m32",
@@ -127,13 +133,14 @@
    "-DTHREADS",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../threads/system.cc"
   ],
   "file": "../threads/system.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/threads",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/threads",
   "arguments": [
    "g++",
    "-m32",
@@ -146,13 +153,14 @@
    "-DTHREADS",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../threads/thread.cc"
   ],
   "file": "../threads/thread.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/threads",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/threads",
   "arguments": [
    "g++",
    "-m32",
@@ -165,13 +173,14 @@
    "-DTHREADS",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../threads/utility.cc"
   ],
   "file": "../threads/utility.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/threads",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/threads",
   "arguments": [
    "g++",
    "-m32",
@@ -184,13 +193,14 @@
    "-DTHREADS",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../threads/threadtest.cc"
   ],
   "file": "../threads/threadtest.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/threads",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/threads",
   "arguments": [
    "g++",
    "-m32",
@@ -203,13 +213,14 @@
    "-DTHREADS",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../machine/interrupt.cc"
   ],
   "file": "../machine/interrupt.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/threads",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/threads",
   "arguments": [
    "g++",
    "-m32",
@@ -222,13 +233,14 @@
    "-DTHREADS",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../machine/stats.cc"
   ],
   "file": "../machine/stats.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/threads",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/threads",
   "arguments": [
    "g++",
    "-m32",
@@ -241,13 +253,14 @@
    "-DTHREADS",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../machine/sysdep.cc"
   ],
   "file": "../machine/sysdep.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/threads",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/threads",
   "arguments": [
    "gcc",
    "-m32",
@@ -262,7 +275,7 @@
   "file": "swtch.s"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/userprog",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/userprog",
   "arguments": [
    "g++",
    "-m32",
@@ -280,13 +293,14 @@
    "-DFILESYS_STUB",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../machine/translate.cc"
   ],
   "file": "../machine/translate.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/userprog",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/userprog",
   "arguments": [
    "g++",
    "-m32",
@@ -304,13 +318,14 @@
    "-DFILESYS_STUB",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../threads/main.cc"
   ],
   "file": "../threads/main.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/userprog",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/userprog",
   "arguments": [
    "g++",
    "-m32",
@@ -328,13 +343,14 @@
    "-DFILESYS_STUB",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../threads/list.cc"
   ],
   "file": "../threads/list.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/userprog",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/userprog",
   "arguments": [
    "g++",
    "-m32",
@@ -352,13 +368,14 @@
    "-DFILESYS_STUB",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../threads/scheduler.cc"
   ],
   "file": "../threads/scheduler.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/userprog",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/userprog",
   "arguments": [
    "g++",
    "-m32",
@@ -376,13 +393,14 @@
    "-DFILESYS_STUB",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../threads/synch.cc"
   ],
   "file": "../threads/synch.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/userprog",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/userprog",
   "arguments": [
    "g++",
    "-m32",
@@ -400,13 +418,14 @@
    "-DFILESYS_STUB",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../threads/synchlist.cc"
   ],
   "file": "../threads/synchlist.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/userprog",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/userprog",
   "arguments": [
    "g++",
    "-m32",
@@ -424,13 +443,14 @@
    "-DFILESYS_STUB",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../threads/system.cc"
   ],
   "file": "../threads/system.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/userprog",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/userprog",
   "arguments": [
    "g++",
    "-m32",
@@ -448,13 +468,14 @@
    "-DFILESYS_STUB",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../threads/thread.cc"
   ],
   "file": "../threads/thread.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/userprog",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/userprog",
   "arguments": [
    "g++",
    "-m32",
@@ -472,13 +493,14 @@
    "-DFILESYS_STUB",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../threads/utility.cc"
   ],
   "file": "../threads/utility.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/userprog",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/userprog",
   "arguments": [
    "g++",
    "-m32",
@@ -496,13 +518,14 @@
    "-DFILESYS_STUB",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../threads/threadtest.cc"
   ],
   "file": "../threads/threadtest.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/userprog",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/userprog",
   "arguments": [
    "g++",
    "-m32",
@@ -520,13 +543,14 @@
    "-DFILESYS_STUB",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../machine/interrupt.cc"
   ],
   "file": "../machine/interrupt.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/userprog",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/userprog",
   "arguments": [
    "g++",
    "-m32",
@@ -544,13 +568,14 @@
    "-DFILESYS_STUB",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../machine/stats.cc"
   ],
   "file": "../machine/stats.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/userprog",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/userprog",
   "arguments": [
    "g++",
    "-m32",
@@ -568,13 +593,14 @@
    "-DFILESYS_STUB",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../machine/sysdep.cc"
   ],
   "file": "../machine/sysdep.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/userprog",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/userprog",
   "arguments": [
    "g++",
    "-m32",
@@ -592,13 +618,14 @@
    "-DFILESYS_STUB",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../machine/timer.cc"
   ],
   "file": "../machine/timer.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/userprog",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/userprog",
   "arguments": [
    "g++",
    "-m32",
@@ -616,13 +643,14 @@
    "-DFILESYS_STUB",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../userprog/addrspace.cc"
   ],
   "file": "../userprog/addrspace.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/userprog",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/userprog",
   "arguments": [
    "g++",
    "-m32",
@@ -640,13 +668,14 @@
    "-DFILESYS_STUB",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../userprog/bitmap.cc"
   ],
   "file": "../userprog/bitmap.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/userprog",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/userprog",
   "arguments": [
    "g++",
    "-m32",
@@ -664,13 +693,14 @@
    "-DFILESYS_STUB",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../userprog/exception.cc"
   ],
   "file": "../userprog/exception.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/userprog",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/userprog",
   "arguments": [
    "g++",
    "-m32",
@@ -688,13 +718,14 @@
    "-DFILESYS_STUB",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../userprog/progtest.cc"
   ],
   "file": "../userprog/progtest.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/userprog",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/userprog",
   "arguments": [
    "g++",
    "-m32",
@@ -712,13 +743,14 @@
    "-DFILESYS_STUB",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../machine/console.cc"
   ],
   "file": "../machine/console.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/userprog",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/userprog",
   "arguments": [
    "g++",
    "-m32",
@@ -736,13 +768,14 @@
    "-DFILESYS_STUB",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../machine/machine.cc"
   ],
   "file": "../machine/machine.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/userprog",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/userprog",
   "arguments": [
    "g++",
    "-m32",
@@ -760,13 +793,14 @@
    "-DFILESYS_STUB",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../machine/mipssim.cc"
   ],
   "file": "../machine/mipssim.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/userprog",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/userprog",
   "arguments": [
    "gcc",
    "-m32",
@@ -784,7 +818,7 @@
   "file": "swtch.s"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/vm",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/vm",
   "arguments": [
    "g++",
    "-m32",
@@ -805,13 +839,14 @@
    "-DUSE_TLB",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../machine/translate.cc"
   ],
   "file": "../machine/translate.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/vm",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/vm",
   "arguments": [
    "g++",
    "-m32",
@@ -832,13 +867,14 @@
    "-DUSE_TLB",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../threads/main.cc"
   ],
   "file": "../threads/main.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/vm",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/vm",
   "arguments": [
    "g++",
    "-m32",
@@ -859,13 +895,14 @@
    "-DUSE_TLB",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../threads/list.cc"
   ],
   "file": "../threads/list.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/vm",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/vm",
   "arguments": [
    "g++",
    "-m32",
@@ -886,13 +923,14 @@
    "-DUSE_TLB",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../threads/scheduler.cc"
   ],
   "file": "../threads/scheduler.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/vm",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/vm",
   "arguments": [
    "g++",
    "-m32",
@@ -913,13 +951,14 @@
    "-DUSE_TLB",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../threads/synch.cc"
   ],
   "file": "../threads/synch.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/vm",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/vm",
   "arguments": [
    "g++",
    "-m32",
@@ -940,13 +979,14 @@
    "-DUSE_TLB",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../threads/synchlist.cc"
   ],
   "file": "../threads/synchlist.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/vm",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/vm",
   "arguments": [
    "g++",
    "-m32",
@@ -967,13 +1007,14 @@
    "-DUSE_TLB",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../threads/system.cc"
   ],
   "file": "../threads/system.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/vm",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/vm",
   "arguments": [
    "g++",
    "-m32",
@@ -994,13 +1035,14 @@
    "-DUSE_TLB",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../threads/thread.cc"
   ],
   "file": "../threads/thread.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/vm",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/vm",
   "arguments": [
    "g++",
    "-m32",
@@ -1021,13 +1063,14 @@
    "-DUSE_TLB",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../threads/utility.cc"
   ],
   "file": "../threads/utility.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/vm",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/vm",
   "arguments": [
    "g++",
    "-m32",
@@ -1048,13 +1091,14 @@
    "-DUSE_TLB",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../threads/threadtest.cc"
   ],
   "file": "../threads/threadtest.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/vm",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/vm",
   "arguments": [
    "g++",
    "-m32",
@@ -1075,13 +1119,14 @@
    "-DUSE_TLB",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../machine/interrupt.cc"
   ],
   "file": "../machine/interrupt.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/vm",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/vm",
   "arguments": [
    "g++",
    "-m32",
@@ -1102,13 +1147,14 @@
    "-DUSE_TLB",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../machine/stats.cc"
   ],
   "file": "../machine/stats.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/vm",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/vm",
   "arguments": [
    "g++",
    "-m32",
@@ -1129,13 +1175,14 @@
    "-DUSE_TLB",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../machine/sysdep.cc"
   ],
   "file": "../machine/sysdep.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/vm",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/vm",
   "arguments": [
    "g++",
    "-m32",
@@ -1156,13 +1203,14 @@
    "-DUSE_TLB",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../machine/timer.cc"
   ],
   "file": "../machine/timer.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/vm",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/vm",
   "arguments": [
    "g++",
    "-m32",
@@ -1183,13 +1231,14 @@
    "-DUSE_TLB",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../userprog/addrspace.cc"
   ],
   "file": "../userprog/addrspace.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/vm",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/vm",
   "arguments": [
    "g++",
    "-m32",
@@ -1210,13 +1259,14 @@
    "-DUSE_TLB",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../userprog/bitmap.cc"
   ],
   "file": "../userprog/bitmap.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/vm",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/vm",
   "arguments": [
    "g++",
    "-m32",
@@ -1237,13 +1287,14 @@
    "-DUSE_TLB",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../userprog/exception.cc"
   ],
   "file": "../userprog/exception.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/vm",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/vm",
   "arguments": [
    "g++",
    "-m32",
@@ -1264,13 +1315,14 @@
    "-DUSE_TLB",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../userprog/progtest.cc"
   ],
   "file": "../userprog/progtest.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/vm",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/vm",
   "arguments": [
    "g++",
    "-m32",
@@ -1291,13 +1343,14 @@
    "-DUSE_TLB",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../machine/console.cc"
   ],
   "file": "../machine/console.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/vm",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/vm",
   "arguments": [
    "g++",
    "-m32",
@@ -1318,13 +1371,14 @@
    "-DUSE_TLB",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../machine/machine.cc"
   ],
   "file": "../machine/machine.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/vm",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/vm",
   "arguments": [
    "g++",
    "-m32",
@@ -1345,13 +1399,14 @@
    "-DUSE_TLB",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../machine/mipssim.cc"
   ],
   "file": "../machine/mipssim.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/vm",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/vm",
   "arguments": [
    "gcc",
    "-m32",
@@ -1370,7 +1425,7 @@
   "file": "swtch.s"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/filesys",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/filesys",
   "arguments": [
    "g++",
    "-m32",
@@ -1391,13 +1446,14 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../machine/disk.cc"
   ],
   "file": "../machine/disk.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/filesys",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/filesys",
   "arguments": [
    "g++",
    "-m32",
@@ -1418,13 +1474,14 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../threads/main.cc"
   ],
   "file": "../threads/main.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/filesys",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/filesys",
   "arguments": [
    "g++",
    "-m32",
@@ -1445,13 +1502,14 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../threads/list.cc"
   ],
   "file": "../threads/list.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/filesys",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/filesys",
   "arguments": [
    "g++",
    "-m32",
@@ -1472,13 +1530,14 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../threads/scheduler.cc"
   ],
   "file": "../threads/scheduler.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/filesys",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/filesys",
   "arguments": [
    "g++",
    "-m32",
@@ -1499,13 +1558,14 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../threads/synch.cc"
   ],
   "file": "../threads/synch.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/filesys",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/filesys",
   "arguments": [
    "g++",
    "-m32",
@@ -1526,13 +1586,14 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../threads/synchlist.cc"
   ],
   "file": "../threads/synchlist.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/filesys",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/filesys",
   "arguments": [
    "g++",
    "-m32",
@@ -1553,13 +1614,14 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../threads/system.cc"
   ],
   "file": "../threads/system.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/filesys",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/filesys",
   "arguments": [
    "g++",
    "-m32",
@@ -1580,13 +1642,14 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../threads/thread.cc"
   ],
   "file": "../threads/thread.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/filesys",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/filesys",
   "arguments": [
    "g++",
    "-m32",
@@ -1607,13 +1670,14 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../threads/utility.cc"
   ],
   "file": "../threads/utility.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/filesys",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/filesys",
   "arguments": [
    "g++",
    "-m32",
@@ -1634,13 +1698,14 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../threads/threadtest.cc"
   ],
   "file": "../threads/threadtest.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/filesys",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/filesys",
   "arguments": [
    "g++",
    "-m32",
@@ -1661,13 +1726,14 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../machine/interrupt.cc"
   ],
   "file": "../machine/interrupt.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/filesys",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/filesys",
   "arguments": [
    "g++",
    "-m32",
@@ -1688,13 +1754,14 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../machine/stats.cc"
   ],
   "file": "../machine/stats.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/filesys",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/filesys",
   "arguments": [
    "g++",
    "-m32",
@@ -1715,13 +1782,14 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../machine/sysdep.cc"
   ],
   "file": "../machine/sysdep.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/filesys",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/filesys",
   "arguments": [
    "g++",
    "-m32",
@@ -1742,13 +1810,14 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../machine/timer.cc"
   ],
   "file": "../machine/timer.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/filesys",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/filesys",
   "arguments": [
    "g++",
    "-m32",
@@ -1769,13 +1838,14 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../userprog/addrspace.cc"
   ],
   "file": "../userprog/addrspace.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/filesys",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/filesys",
   "arguments": [
    "g++",
    "-m32",
@@ -1796,13 +1866,14 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../userprog/bitmap.cc"
   ],
   "file": "../userprog/bitmap.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/filesys",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/filesys",
   "arguments": [
    "g++",
    "-m32",
@@ -1823,13 +1894,14 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../userprog/exception.cc"
   ],
   "file": "../userprog/exception.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/filesys",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/filesys",
   "arguments": [
    "g++",
    "-m32",
@@ -1850,13 +1922,14 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../userprog/progtest.cc"
   ],
   "file": "../userprog/progtest.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/filesys",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/filesys",
   "arguments": [
    "g++",
    "-m32",
@@ -1877,13 +1950,14 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../machine/console.cc"
   ],
   "file": "../machine/console.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/filesys",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/filesys",
   "arguments": [
    "g++",
    "-m32",
@@ -1904,13 +1978,14 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../machine/machine.cc"
   ],
   "file": "../machine/machine.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/filesys",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/filesys",
   "arguments": [
    "g++",
    "-m32",
@@ -1931,13 +2006,14 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../machine/mipssim.cc"
   ],
   "file": "../machine/mipssim.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/filesys",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/filesys",
   "arguments": [
    "g++",
    "-m32",
@@ -1958,13 +2034,14 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../machine/translate.cc"
   ],
   "file": "../machine/translate.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/filesys",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/filesys",
   "arguments": [
    "g++",
    "-m32",
@@ -1985,13 +2062,14 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../filesys/directory.cc"
   ],
   "file": "../filesys/directory.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/filesys",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/filesys",
   "arguments": [
    "g++",
    "-m32",
@@ -2012,13 +2090,14 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../filesys/filehdr.cc"
   ],
   "file": "../filesys/filehdr.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/filesys",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/filesys",
   "arguments": [
    "g++",
    "-m32",
@@ -2039,13 +2118,14 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../filesys/filesys.cc"
   ],
   "file": "../filesys/filesys.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/filesys",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/filesys",
   "arguments": [
    "g++",
    "-m32",
@@ -2066,13 +2146,14 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../filesys/fstest.cc"
   ],
   "file": "../filesys/fstest.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/filesys",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/filesys",
   "arguments": [
    "g++",
    "-m32",
@@ -2093,13 +2174,14 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../filesys/openfile.cc"
   ],
   "file": "../filesys/openfile.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/filesys",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/filesys",
   "arguments": [
    "g++",
    "-m32",
@@ -2120,13 +2202,14 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../filesys/synchdisk.cc"
   ],
   "file": "../filesys/synchdisk.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/filesys",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/filesys",
   "arguments": [
    "gcc",
    "-m32",
@@ -2145,7 +2228,7 @@
   "file": "swtch.s"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/network",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/network",
   "arguments": [
    "g++",
    "-m32",
@@ -2167,13 +2250,14 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../machine/network.cc"
   ],
   "file": "../machine/network.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/network",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/network",
   "arguments": [
    "g++",
    "-m32",
@@ -2195,13 +2279,14 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../threads/main.cc"
   ],
   "file": "../threads/main.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/network",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/network",
   "arguments": [
    "g++",
    "-m32",
@@ -2223,13 +2308,14 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../threads/list.cc"
   ],
   "file": "../threads/list.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/network",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/network",
   "arguments": [
    "g++",
    "-m32",
@@ -2251,13 +2337,14 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../threads/scheduler.cc"
   ],
   "file": "../threads/scheduler.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/network",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/network",
   "arguments": [
    "g++",
    "-m32",
@@ -2279,13 +2366,14 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../threads/synch.cc"
   ],
   "file": "../threads/synch.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/network",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/network",
   "arguments": [
    "g++",
    "-m32",
@@ -2307,13 +2395,14 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../threads/synchlist.cc"
   ],
   "file": "../threads/synchlist.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/network",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/network",
   "arguments": [
    "g++",
    "-m32",
@@ -2335,13 +2424,14 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../threads/system.cc"
   ],
   "file": "../threads/system.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/network",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/network",
   "arguments": [
    "g++",
    "-m32",
@@ -2363,13 +2453,14 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../threads/thread.cc"
   ],
   "file": "../threads/thread.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/network",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/network",
   "arguments": [
    "g++",
    "-m32",
@@ -2391,13 +2482,14 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../threads/utility.cc"
   ],
   "file": "../threads/utility.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/network",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/network",
   "arguments": [
    "g++",
    "-m32",
@@ -2419,13 +2511,14 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../threads/threadtest.cc"
   ],
   "file": "../threads/threadtest.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/network",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/network",
   "arguments": [
    "g++",
    "-m32",
@@ -2447,13 +2540,14 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../machine/interrupt.cc"
   ],
   "file": "../machine/interrupt.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/network",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/network",
   "arguments": [
    "g++",
    "-m32",
@@ -2475,13 +2569,14 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../machine/stats.cc"
   ],
   "file": "../machine/stats.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/network",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/network",
   "arguments": [
    "g++",
    "-m32",
@@ -2503,13 +2598,14 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../machine/sysdep.cc"
   ],
   "file": "../machine/sysdep.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/network",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/network",
   "arguments": [
    "g++",
    "-m32",
@@ -2531,13 +2627,14 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../machine/timer.cc"
   ],
   "file": "../machine/timer.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/network",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/network",
   "arguments": [
    "g++",
    "-m32",
@@ -2559,13 +2656,14 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../userprog/addrspace.cc"
   ],
   "file": "../userprog/addrspace.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/network",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/network",
   "arguments": [
    "g++",
    "-m32",
@@ -2587,13 +2685,14 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../userprog/bitmap.cc"
   ],
   "file": "../userprog/bitmap.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/network",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/network",
   "arguments": [
    "g++",
    "-m32",
@@ -2615,13 +2714,14 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../userprog/exception.cc"
   ],
   "file": "../userprog/exception.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/network",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/network",
   "arguments": [
    "g++",
    "-m32",
@@ -2643,13 +2743,14 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../userprog/progtest.cc"
   ],
   "file": "../userprog/progtest.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/network",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/network",
   "arguments": [
    "g++",
    "-m32",
@@ -2671,13 +2772,14 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../machine/console.cc"
   ],
   "file": "../machine/console.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/network",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/network",
   "arguments": [
    "g++",
    "-m32",
@@ -2699,13 +2801,14 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../machine/machine.cc"
   ],
   "file": "../machine/machine.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/network",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/network",
   "arguments": [
    "g++",
    "-m32",
@@ -2727,13 +2830,14 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../machine/mipssim.cc"
   ],
   "file": "../machine/mipssim.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/network",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/network",
   "arguments": [
    "g++",
    "-m32",
@@ -2755,13 +2859,14 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../machine/translate.cc"
   ],
   "file": "../machine/translate.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/network",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/network",
   "arguments": [
    "g++",
    "-m32",
@@ -2783,13 +2888,14 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../filesys/directory.cc"
   ],
   "file": "../filesys/directory.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/network",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/network",
   "arguments": [
    "g++",
    "-m32",
@@ -2811,13 +2917,14 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../filesys/filehdr.cc"
   ],
   "file": "../filesys/filehdr.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/network",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/network",
   "arguments": [
    "g++",
    "-m32",
@@ -2839,13 +2946,14 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../filesys/filesys.cc"
   ],
   "file": "../filesys/filesys.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/network",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/network",
   "arguments": [
    "g++",
    "-m32",
@@ -2867,13 +2975,14 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../filesys/fstest.cc"
   ],
   "file": "../filesys/fstest.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/network",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/network",
   "arguments": [
    "g++",
    "-m32",
@@ -2895,13 +3004,14 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../filesys/openfile.cc"
   ],
   "file": "../filesys/openfile.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/network",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/network",
   "arguments": [
    "g++",
    "-m32",
@@ -2923,13 +3033,14 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../filesys/synchdisk.cc"
   ],
   "file": "../filesys/synchdisk.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/network",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/network",
   "arguments": [
    "g++",
    "-m32",
@@ -2951,13 +3062,14 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../machine/disk.cc"
   ],
   "file": "../machine/disk.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/network",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/network",
   "arguments": [
    "g++",
    "-m32",
@@ -2979,13 +3091,14 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../network/nettest.cc"
   ],
   "file": "../network/nettest.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/network",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/network",
   "arguments": [
    "g++",
    "-m32",
@@ -3007,13 +3120,14 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
+   "-DHW1_SEMAPHORE",
    "-c",
    "../network/post.cc"
   ],
   "file": "../network/post.cc"
  },
  {
-  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachos-project/nachos-3.4/code/network",
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/network",
   "arguments": [
    "gcc",
    "-m32",

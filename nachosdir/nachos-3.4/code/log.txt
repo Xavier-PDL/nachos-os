@@ -1,0 +1,73 @@
+Entering new ThreadTest
+Forking thread "forked thread" with func = 0x565bbce8, arg = 1
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x565bbce8, arg = 2
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x565bbce8, arg = 3
+Putting thread forked thread on ready list.
+Forking thread "forked thread" with func = 0x565bbce8, arg = 4
+Putting thread forked thread on ready list.
+*** thread 0 sees value 0
+Yielding thread "main"
+Putting thread main on ready list.
+Switching from thread "main" to thread "forked thread"
+*** thread 4 sees value 0
+Yielding thread "forked thread"
+Putting thread forked thread on ready list.
+Switching from thread "forked thread" to thread "forked thread"
+Now in thread "forked thread"
+Yielding thread "forked thread"
+Putting thread forked thread on ready list.
+Switching from thread "forked thread" to thread "forked thread"
+Now in thread "forked thread"
+*** thread 4 sees value 1
+Yielding thread "forked thread"
+Putting thread forked thread on ready list.
+Switching from thread "forked thread" to thread "forked thread"
+Now in thread "forked thread"
+Yielding thread "forked thread"
+Putting thread forked thread on ready list.
+Switching from thread "forked thread" to thread "main"
+Now in thread "main"
+Yielding thread "main"
+Putting thread main on ready list.
+Switching from thread "main" to thread "forked thread"
+Now in thread "forked thread"
+*** thread 4 sees value 1
+Yielding thread "forked thread"
+Putting thread forked thread on ready list.
+Switching from thread "forked thread" to thread "forked thread"
+Now in thread "forked thread"
+Yielding thread "forked thread"
+Putting thread forked thread on ready list.
+Switching from thread "forked thread" to thread "forked thread"
+Now in thread "forked thread"
+*** thread 4 sees value 2
+Yielding thread "forked thread"
+Putting thread forked thread on ready list.
+Switching from thread "forked thread" to thread "forked thread"
+Now in thread "forked thread"
+Yielding thread "forked thread"
+Putting thread forked thread on ready list.
+Switching from thread "forked thread" to thread "main"
+Now in thread "main"
+*** thread 0 sees value 3
+Yielding thread "main"
+Putting thread main on ready list.
+Switching from thread "main" to thread "forked thread"
+Now in thread "forked thread"
+*** thread 4 sees value 3
+Yielding thread "forked thread"
+Putting thread forked thread on ready list.
+Switching from thread "forked thread" to thread "forked thread"
+Now in thread "forked thread"
+Yielding thread "forked thread"
+Putting thread forked thread on ready list.
+Switching from thread "forked thread" to thread "forked thread"
+Now in thread "forked thread"
+Thread 4 sees final value 4
+Finishing thread "forked thread"
+Sleeping thread "forked thread"
+Switching from thread "forked thread" to thread "forked thread"
+Now in thread "forked thread"
+Deleting thread "forked thread"

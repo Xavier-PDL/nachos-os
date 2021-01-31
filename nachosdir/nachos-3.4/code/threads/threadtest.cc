@@ -10,6 +10,8 @@
 // of liability and disclaimer of warranty provisions.
 
 #include "copyright.h"
+#include "switch.h"
+#include "synch.h"
 #include "system.h"
 
 // testnum is set in main.cc
@@ -24,6 +26,23 @@ int testnum = 1;
 //	purposes.
 //----------------------------------------------------------------------
 
+#if defined(CHANGED) && defined(THREADS)
+int SharedVariable;
+void
+SimpleThread(int which)
+{
+    int num, val;
+    for (num = 0; num < 5; num++) {
+        val = SharedVariable;
+        printf("*** thread %d sees value %d\n", which, val);
+        currentThread->Yield();
+        SharedVariable = val+1;
+        currentThread->Yield();
+    }
+    val = SharedVariable;
+    printf("Thread %d sees final value %d\n", which, val);
+}
+#else
 void
 SimpleThread(int which)
 {
@@ -34,6 +53,7 @@ SimpleThread(int which)
         currentThread->Yield();
     }
 }
+#endif
 
 //----------------------------------------------------------------------
 // ThreadTest1
@@ -53,20 +73,46 @@ ThreadTest1()
 }
 
 //----------------------------------------------------------------------
+// ThreadTestN
+// 	Set up a ping-pong between N threads, by forking a thread 
+//	to call SimpleThread, and then calling SimpleThread ourselves.
+//----------------------------------------------------------------------
+
+void
+ThreadTestN(int n)
+{
+    DEBUG('t', "Entering ThreadTestN\n");
+    for(int i = 1; i <= n; i++)
+    {
+        Thread *t = new Thread("forked thread");
+        t->Fork(SimpleThread, i);
+    }
+    SimpleThread(0);
+}
+
+//----------------------------------------------------------------------
 // ThreadTest
 // 	Invoke a test routine.
 //----------------------------------------------------------------------
 
+#if defined(CHANGED) && defined(THREADS)
+void
+ThreadTest(int n)
+#else
 void
 ThreadTest()
+#endif
 {
     switch (testnum) {
     case 1:
+#if defined(CHANGED) && defined(THREADS)
+    ThreadTestN(n);
+#else
 	ThreadTest1();
+#endif
 	break;
     default:
 	printf("No test specified.\n");
 	break;
     }
 }
-

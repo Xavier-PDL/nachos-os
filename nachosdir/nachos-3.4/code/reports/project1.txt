@@ -1,0 +1,15 @@
+Xavier Ponce de Leon
+
+Excercise 1:
+
+Running the program with the first set of modifications, forking `n` new
+threads, results in the following behavior.
+
+SimpleThread gets called by multiple threads. The delay between each thread is
+so small that when the value of SharedVariable get updated, the value of val is
+essentially the same. This results in SharedVariable having the same value in
+each iteration for each thread. The correct behavior would be for the main
+thread to enter the loop in SimpleThread, set val to 0 because SharedValue is
+0, yield execution to the next thread, and write val+1, or in this case 1, to
+SharedVariable before yielding execution to the next thread. This behavior
+should repeat a total of 5 times.
