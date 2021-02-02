@@ -6,6 +6,7 @@ nachos
 coff2noff
 *.o
 *.s
+*.coff
 **/code/test/halt
 **/code/test/matmult
 **/code/test/shell
