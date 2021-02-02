@@ -61,9 +61,10 @@ extern int testnum;
 
 #if defined(CHANGED) && defined(THREADS)
 extern void ThreadTest(int n), Copy(char *unixFile, char *nachosFile);
+extern void SemaphorePing();
 #else
 extern void ThreadTest(void), Copy(char *unixFile, char *nachosFile);
-#endif
+#endif // CHANGED
 extern void Print(char *file), PerformanceTest(void);
 extern void StartProcess(char *file), ConsoleTest(char *in, char *out);
 extern void MailTest(int networkID);
@@ -106,11 +107,12 @@ main(int argc, char **argv)
     }
 
 #if defined(CHANGED)
-    ThreadTest(1);
+    ThreadTest(4);
+    //SemaphorePing();
 #else
     ThreadTest();
-#endif
-#endif
+#endif // CHANGED 
+#endif // THREADS
 
     for (argc--, argv++; argc > 0; argc -= argCount, argv += argCount) {
 	argCount = 1;
