@@ -109,7 +109,9 @@ void
 ThreadTestN(int n)
 {
     DEBUG('t', "Entering ThreadTestN\n");
+#if defined(HW1_SEMAPHORE)
     numberOfThreads = n + 1; // Number of threads = n + main_thread
+#endif // HW1_SEMAPHORE
     for(int i = 1; i <= n; i++)
     {
         Thread *t = new Thread("forked thread");
