@@ -27,8 +27,6 @@ int testnum = 1;
 //----------------------------------------------------------------------
 
 #if defined(CHANGED) && defined(THREADS)
-#define wait   P
-#define signal V
 int SharedVariable;
 #if defined(HW1_SEMAPHORE) && defined(THREADS)
 int numberOfThreads;
@@ -44,30 +42,31 @@ SimpleThread(int which)
     int num, val;
     for (num = 0; num < 5; num++) {
 #if defined(HW1_SEMAPHORE) && defined(THREADS)
-        semSharedVar->wait();
+        semSharedVar->P();
 #endif // HW1_SEMAPHORE 
         val = SharedVariable;
         printf("*** thread %d sees value %d\n", which, val);
         currentThread->Yield();
         SharedVariable = val+1;
 #if defined(HW1_SEMAPHORE) && defined(THREADS)
-        semSharedVar->signal();
+        semSharedVar->V();
 #endif // HW1_SEMAPHORE
         currentThread->Yield();
     }
 
 #if defined(HW1_SEMAPHORE) && defined(THREADS)
-    semSharedVar->wait();
+    semSharedVar->P();
     count++;
-    semSharedVar->signal();
+    semSharedVar->V();
+
     currentThread->Yield();
 
     if(count == numberOfThreads)
     {
-        semBarrier->signal();
+        semBarrier->V();
     }
-    semBarrier->wait();
-    semBarrier->signal();
+    semBarrier->P();
+    semBarrier->V();
 #endif // HW1_SEMAPHORE
 
     val = SharedVariable;
