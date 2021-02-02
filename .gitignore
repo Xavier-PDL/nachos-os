@@ -2,6 +2,8 @@ literature
 project-*
 .clangd
 .cache
+nachos
+*.o
 **/code/test/halt
 **/code/test/matmult
 **/code/test/shell
