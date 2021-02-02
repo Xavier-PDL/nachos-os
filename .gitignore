@@ -3,7 +3,9 @@ project-*
 .clangd
 .cache
 nachos
+coff2noff
 *.o
+*.s
 **/code/test/halt
 **/code/test/matmult
 **/code/test/shell
