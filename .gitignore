@@ -2,3 +2,7 @@ literature
 project-*
 .clangd
 .cache
+**/code/test/halt
+**/code/test/matmult
+**/code/test/shell
+**/code/test/sort
