@@ -13,7 +13,7 @@
    "-DTHREADS",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../machine/timer.cc"
   ],
@@ -33,7 +33,7 @@
    "-DTHREADS",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../threads/main.cc"
   ],
@@ -53,7 +53,7 @@
    "-DTHREADS",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../threads/list.cc"
   ],
@@ -73,7 +73,7 @@
    "-DTHREADS",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../threads/scheduler.cc"
   ],
@@ -93,7 +93,7 @@
    "-DTHREADS",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../threads/synch.cc"
   ],
@@ -113,7 +113,7 @@
    "-DTHREADS",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../threads/synchlist.cc"
   ],
@@ -133,7 +133,7 @@
    "-DTHREADS",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../threads/system.cc"
   ],
@@ -153,7 +153,7 @@
    "-DTHREADS",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../threads/thread.cc"
   ],
@@ -173,7 +173,7 @@
    "-DTHREADS",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../threads/utility.cc"
   ],
@@ -193,7 +193,7 @@
    "-DTHREADS",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../threads/threadtest.cc"
   ],
@@ -213,7 +213,7 @@
    "-DTHREADS",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../machine/interrupt.cc"
   ],
@@ -233,7 +233,7 @@
    "-DTHREADS",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../machine/stats.cc"
   ],
@@ -253,7 +253,7 @@
    "-DTHREADS",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../machine/sysdep.cc"
   ],
@@ -293,7 +293,7 @@
    "-DFILESYS_STUB",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../machine/translate.cc"
   ],
@@ -318,7 +318,7 @@
    "-DFILESYS_STUB",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../threads/main.cc"
   ],
@@ -343,7 +343,7 @@
    "-DFILESYS_STUB",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../threads/list.cc"
   ],
@@ -368,7 +368,7 @@
    "-DFILESYS_STUB",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../threads/scheduler.cc"
   ],
@@ -393,7 +393,7 @@
    "-DFILESYS_STUB",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../threads/synch.cc"
   ],
@@ -418,7 +418,7 @@
    "-DFILESYS_STUB",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../threads/synchlist.cc"
   ],
@@ -443,7 +443,7 @@
    "-DFILESYS_STUB",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../threads/system.cc"
   ],
@@ -468,7 +468,7 @@
    "-DFILESYS_STUB",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../threads/thread.cc"
   ],
@@ -493,7 +493,7 @@
    "-DFILESYS_STUB",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../threads/utility.cc"
   ],
@@ -518,7 +518,7 @@
    "-DFILESYS_STUB",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../threads/threadtest.cc"
   ],
@@ -543,7 +543,7 @@
    "-DFILESYS_STUB",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../machine/interrupt.cc"
   ],
@@ -568,7 +568,7 @@
    "-DFILESYS_STUB",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../machine/stats.cc"
   ],
@@ -593,7 +593,7 @@
    "-DFILESYS_STUB",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../machine/sysdep.cc"
   ],
@@ -618,7 +618,7 @@
    "-DFILESYS_STUB",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../machine/timer.cc"
   ],
@@ -643,7 +643,7 @@
    "-DFILESYS_STUB",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../userprog/addrspace.cc"
   ],
@@ -668,7 +668,7 @@
    "-DFILESYS_STUB",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../userprog/bitmap.cc"
   ],
@@ -693,7 +693,7 @@
    "-DFILESYS_STUB",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../userprog/exception.cc"
   ],
@@ -718,7 +718,7 @@
    "-DFILESYS_STUB",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../userprog/progtest.cc"
   ],
@@ -743,7 +743,7 @@
    "-DFILESYS_STUB",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../machine/console.cc"
   ],
@@ -768,7 +768,7 @@
    "-DFILESYS_STUB",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../machine/machine.cc"
   ],
@@ -793,7 +793,7 @@
    "-DFILESYS_STUB",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../machine/mipssim.cc"
   ],
@@ -839,7 +839,7 @@
    "-DUSE_TLB",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../machine/translate.cc"
   ],
@@ -867,7 +867,7 @@
    "-DUSE_TLB",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../threads/main.cc"
   ],
@@ -895,7 +895,7 @@
    "-DUSE_TLB",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../threads/list.cc"
   ],
@@ -923,7 +923,7 @@
    "-DUSE_TLB",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../threads/scheduler.cc"
   ],
@@ -951,7 +951,7 @@
    "-DUSE_TLB",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../threads/synch.cc"
   ],
@@ -979,7 +979,7 @@
    "-DUSE_TLB",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../threads/synchlist.cc"
   ],
@@ -1007,7 +1007,7 @@
    "-DUSE_TLB",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../threads/system.cc"
   ],
@@ -1035,7 +1035,7 @@
    "-DUSE_TLB",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../threads/thread.cc"
   ],
@@ -1063,7 +1063,7 @@
    "-DUSE_TLB",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../threads/utility.cc"
   ],
@@ -1091,7 +1091,7 @@
    "-DUSE_TLB",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../threads/threadtest.cc"
   ],
@@ -1119,7 +1119,7 @@
    "-DUSE_TLB",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../machine/interrupt.cc"
   ],
@@ -1147,7 +1147,7 @@
    "-DUSE_TLB",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../machine/stats.cc"
   ],
@@ -1175,7 +1175,7 @@
    "-DUSE_TLB",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../machine/sysdep.cc"
   ],
@@ -1203,7 +1203,7 @@
    "-DUSE_TLB",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../machine/timer.cc"
   ],
@@ -1231,7 +1231,7 @@
    "-DUSE_TLB",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../userprog/addrspace.cc"
   ],
@@ -1259,7 +1259,7 @@
    "-DUSE_TLB",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../userprog/bitmap.cc"
   ],
@@ -1287,7 +1287,7 @@
    "-DUSE_TLB",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../userprog/exception.cc"
   ],
@@ -1315,7 +1315,7 @@
    "-DUSE_TLB",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../userprog/progtest.cc"
   ],
@@ -1343,7 +1343,7 @@
    "-DUSE_TLB",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../machine/console.cc"
   ],
@@ -1371,7 +1371,7 @@
    "-DUSE_TLB",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../machine/machine.cc"
   ],
@@ -1399,7 +1399,7 @@
    "-DUSE_TLB",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../machine/mipssim.cc"
   ],
@@ -1446,7 +1446,7 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../machine/disk.cc"
   ],
@@ -1474,7 +1474,7 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../threads/main.cc"
   ],
@@ -1502,7 +1502,7 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../threads/list.cc"
   ],
@@ -1530,7 +1530,7 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../threads/scheduler.cc"
   ],
@@ -1558,7 +1558,7 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../threads/synch.cc"
   ],
@@ -1586,7 +1586,7 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../threads/synchlist.cc"
   ],
@@ -1614,7 +1614,7 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../threads/system.cc"
   ],
@@ -1642,7 +1642,7 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../threads/thread.cc"
   ],
@@ -1670,7 +1670,7 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../threads/utility.cc"
   ],
@@ -1698,7 +1698,7 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../threads/threadtest.cc"
   ],
@@ -1726,7 +1726,7 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../machine/interrupt.cc"
   ],
@@ -1754,7 +1754,7 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../machine/stats.cc"
   ],
@@ -1782,7 +1782,7 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../machine/sysdep.cc"
   ],
@@ -1810,7 +1810,7 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../machine/timer.cc"
   ],
@@ -1838,7 +1838,7 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../userprog/addrspace.cc"
   ],
@@ -1866,7 +1866,7 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../userprog/bitmap.cc"
   ],
@@ -1894,7 +1894,7 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../userprog/exception.cc"
   ],
@@ -1922,7 +1922,7 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../userprog/progtest.cc"
   ],
@@ -1950,7 +1950,7 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../machine/console.cc"
   ],
@@ -1978,7 +1978,7 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../machine/machine.cc"
   ],
@@ -2006,7 +2006,7 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../machine/mipssim.cc"
   ],
@@ -2034,7 +2034,7 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../machine/translate.cc"
   ],
@@ -2062,7 +2062,7 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../filesys/directory.cc"
   ],
@@ -2090,7 +2090,7 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../filesys/filehdr.cc"
   ],
@@ -2118,7 +2118,7 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../filesys/filesys.cc"
   ],
@@ -2146,7 +2146,7 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../filesys/fstest.cc"
   ],
@@ -2174,7 +2174,7 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../filesys/openfile.cc"
   ],
@@ -2202,7 +2202,7 @@
    "-DFILESYS",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../filesys/synchdisk.cc"
   ],
@@ -2250,7 +2250,7 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../machine/network.cc"
   ],
@@ -2279,7 +2279,7 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../threads/main.cc"
   ],
@@ -2308,7 +2308,7 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../threads/list.cc"
   ],
@@ -2337,7 +2337,7 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../threads/scheduler.cc"
   ],
@@ -2366,7 +2366,7 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../threads/synch.cc"
   ],
@@ -2395,7 +2395,7 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../threads/synchlist.cc"
   ],
@@ -2424,7 +2424,7 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../threads/system.cc"
   ],
@@ -2453,7 +2453,7 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../threads/thread.cc"
   ],
@@ -2482,7 +2482,7 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../threads/utility.cc"
   ],
@@ -2511,7 +2511,7 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../threads/threadtest.cc"
   ],
@@ -2540,7 +2540,7 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../machine/interrupt.cc"
   ],
@@ -2569,7 +2569,7 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../machine/stats.cc"
   ],
@@ -2598,7 +2598,7 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../machine/sysdep.cc"
   ],
@@ -2627,7 +2627,7 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../machine/timer.cc"
   ],
@@ -2656,7 +2656,7 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../userprog/addrspace.cc"
   ],
@@ -2685,7 +2685,7 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../userprog/bitmap.cc"
   ],
@@ -2714,7 +2714,7 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../userprog/exception.cc"
   ],
@@ -2743,7 +2743,7 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../userprog/progtest.cc"
   ],
@@ -2772,7 +2772,7 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../machine/console.cc"
   ],
@@ -2801,7 +2801,7 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../machine/machine.cc"
   ],
@@ -2830,7 +2830,7 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../machine/mipssim.cc"
   ],
@@ -2859,7 +2859,7 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../machine/translate.cc"
   ],
@@ -2888,7 +2888,7 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../filesys/directory.cc"
   ],
@@ -2917,7 +2917,7 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../filesys/filehdr.cc"
   ],
@@ -2946,7 +2946,7 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../filesys/filesys.cc"
   ],
@@ -2975,7 +2975,7 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../filesys/fstest.cc"
   ],
@@ -3004,7 +3004,7 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../filesys/openfile.cc"
   ],
@@ -3033,7 +3033,7 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../filesys/synchdisk.cc"
   ],
@@ -3062,7 +3062,7 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../machine/disk.cc"
   ],
@@ -3091,7 +3091,7 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../network/nettest.cc"
   ],
@@ -3120,7 +3120,7 @@
    "-DNETWORK",
    "-DHOST_i386",
    "-DCHANGED",
-   "-DHW1_SEMAPHORE",
+   "-DHW1_LOCKS",
    "-c",
    "../network/post.cc"
   ],
@@ -3145,5 +3145,135 @@
    "swtch.s"
   ],
   "file": "swtch.s"
+ },
+ {
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/threads",
+  "arguments": [
+   "g++",
+   "-m32",
+   "-g",
+   "-Wall",
+   "-Wshadow",
+   "-m32",
+   "-I../threads",
+   "-I../machine",
+   "-DTHREADS",
+   "-DHOST_i386",
+   "-DCHANGED",
+   "-DHW1_LOCKS",
+   "-c",
+   "../threads/semaphore_ping.cc"
+  ],
+  "file": "../threads/semaphore_ping.cc"
+ },
+ {
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/userprog",
+  "arguments": [
+   "g++",
+   "-m32",
+   "-g",
+   "-Wall",
+   "-Wshadow",
+   "-m32",
+   "-I../bin",
+   "-I../filesys",
+   "-I../userprog",
+   "-I../threads",
+   "-I../machine",
+   "-DUSER_PROGRAM",
+   "-DFILESYS_NEEDED",
+   "-DFILESYS_STUB",
+   "-DHOST_i386",
+   "-DCHANGED",
+   "-DHW1_LOCKS",
+   "-c",
+   "../threads/semaphore_ping.cc"
+  ],
+  "file": "../threads/semaphore_ping.cc"
+ },
+ {
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/vm",
+  "arguments": [
+   "g++",
+   "-m32",
+   "-g",
+   "-Wall",
+   "-Wshadow",
+   "-m32",
+   "-I../filesys",
+   "-I../bin",
+   "-I../vm",
+   "-I../userprog",
+   "-I../threads",
+   "-I../machine",
+   "-DUSER_PROGRAM",
+   "-DFILESYS_NEEDED",
+   "-DFILESYS_STUB",
+   "-DVM",
+   "-DUSE_TLB",
+   "-DHOST_i386",
+   "-DCHANGED",
+   "-DHW1_LOCKS",
+   "-c",
+   "../threads/semaphore_ping.cc"
+  ],
+  "file": "../threads/semaphore_ping.cc"
+ },
+ {
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/filesys",
+  "arguments": [
+   "g++",
+   "-m32",
+   "-g",
+   "-Wall",
+   "-Wshadow",
+   "-m32",
+   "-I../filesys",
+   "-I../bin",
+   "-I../vm",
+   "-I../userprog",
+   "-I../threads",
+   "-I../machine",
+   "-DTHREADS",
+   "-DUSER_PROGRAM",
+   "-DVM",
+   "-DFILESYS_NEEDED",
+   "-DFILESYS",
+   "-DHOST_i386",
+   "-DCHANGED",
+   "-DHW1_LOCKS",
+   "-c",
+   "../threads/semaphore_ping.cc"
+  ],
+  "file": "../threads/semaphore_ping.cc"
+ },
+ {
+  "directory": "/home/x/docs/school/2021/spring/cop4610-operating-systems/nachos/nachosdir/nachos-3.4/code/network",
+  "arguments": [
+   "g++",
+   "-m32",
+   "-g",
+   "-Wall",
+   "-Wshadow",
+   "-m32",
+   "-I../network",
+   "-I../bin",
+   "-I../filesys",
+   "-I../vm",
+   "-I../userprog",
+   "-I../threads",
+   "-I../machine",
+   "-DUSER_PROGRAM",
+   "-DVM",
+   "-DFILESYS_NEEDED",
+   "-DFILESYS",
+   "-DNETWORK",
+   "-DHOST_i386",
+   "-DCHANGED",
+   "-DHW1_LOCKS",
+   "-c",
+   "../threads/semaphore_ping.cc"
+  ],
+  "file": "../threads/semaphore_ping.cc"
  }
 ]

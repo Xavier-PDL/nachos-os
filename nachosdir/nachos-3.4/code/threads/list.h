@@ -45,9 +45,12 @@ class List {
     List();			// initialize the list
     ~List();			// de-allocate the list
 
-    void Prepend(void *item); 	// Put item at the beginning of the list
-    void Append(void *item); 	// Put item at the end of the list
-    void *Remove(); 	 	// Take item off the front of the list
+    // Put item at the beginning of the list 
+    void Prepend(void *item); 	
+    // Put item at the end of the list
+    void Append(void *item); 	
+    // Take item off the front of the list 
+    void *Remove(); 	 	
 
     void Mapcar(VoidFunctionPtr func);	// Apply "func" to every element 
 					// on the list

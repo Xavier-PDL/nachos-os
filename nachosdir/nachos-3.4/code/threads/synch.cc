@@ -24,6 +24,7 @@
 #include "copyright.h"
 #include "synch.h"
 #include "system.h"
+#include "utility.h"
 
 //----------------------------------------------------------------------
 // Semaphore::Semaphore
@@ -100,10 +101,51 @@ Semaphore::V()
 // Dummy functions -- so we can compile our later assignments 
 // Note -- without a correct implementation of Condition::Wait(), 
 // the test case in the network assignment won't work!
-Lock::Lock(const char* debugName) {}
-Lock::~Lock() {}
-void Lock::Acquire() {}
-void Lock::Release() {}
+Lock::Lock(const char* debugName) 
+{
+#if defined(CHANGED) && defined(THREADS)
+    this->name = debugName;
+    this->queue = new List;
+#endif
+}
+
+Lock::~Lock() 
+{
+#if defined(CHANGED) && defined(THREADS)
+    this->Release();
+#endif
+}
+
+void Lock::Acquire() 
+{
+#if defined(CHANGED) && defined(THREADS)
+    IntStatus oldLevel = interrupt->SetLevel(IntOff);	// disable interrupts
+    DEBUG('t', "[SYNC] Trying to acquire lock: %s\n", name);
+    while (bLocked) { 			                // lock not available
+        DEBUG('t', "[SYNC] Lock not available. Waiting.\n");
+        queue->Append((void *)currentThread);	// so go to sleep
+        currentThread->Sleep();
+    } 
+    DEBUG('t', "[SYNC] Lock acquired: %s\n", name);
+    bLocked = true;
+    
+    (void) interrupt->SetLevel(oldLevel);	// re-enable interrupts
+#endif
+}
+
+void Lock::Release() 
+{
+#if defined(CHANGED) && defined(THREADS)
+    Thread *thread;
+    IntStatus oldLevel = interrupt->SetLevel(IntOff);
+
+    thread = (Thread *)queue->Remove();
+    if (thread != NULL)	   // make thread ready, consuming the V immediately
+        scheduler->ReadyToRun(thread);
+    bLocked = false;
+    (void) interrupt->SetLevel(oldLevel);
+#endif
+}
 
 Condition::Condition(const char* debugName) { }
 Condition::~Condition() { }

@@ -34,6 +34,12 @@ int count = 0;
 Semaphore * semSharedVar = new Semaphore("sem_sharedvar", 1);
 Semaphore * semBarrier = new Semaphore("sem_barrier", 0);
 #endif // HW1_SEMAPHORE
+#if defined(HW1_LOCKS) && defined(THREADS)
+int numberOfThreads;
+int count = 0;
+Lock * lock = new Lock("lock_lock");
+Lock * lockBarrier = new Lock("lock_barrier");
+#endif // HW1_LOCKS
 #endif // CHANGED
 void
 SimpleThread(int which)
@@ -44,13 +50,21 @@ SimpleThread(int which)
 #if defined(HW1_SEMAPHORE) && defined(THREADS)
         semSharedVar->P();
 #endif // HW1_SEMAPHORE 
+#if defined(HW1_LOCKS) && defined(THREADS)
+        lock->Acquire();
+#endif // HW1_LOCKS 
+
         val = SharedVariable;
         printf("*** thread %d sees value %d\n", which, val);
         currentThread->Yield();
         SharedVariable = val+1;
+
 #if defined(HW1_SEMAPHORE) && defined(THREADS)
         semSharedVar->V();
 #endif // HW1_SEMAPHORE
+#if defined(HW1_LOCKS) && defined(THREADS)
+        lock->Release();
+#endif // HW1_LOCKS
         currentThread->Yield();
     }
 
@@ -68,6 +82,21 @@ SimpleThread(int which)
     semBarrier->P();
     semBarrier->V();
 #endif // HW1_SEMAPHORE
+#if defined(HW1_LOCKS) && defined(THREADS)
+    lock->Acquire();
+    count++;
+    lock->Release();
+
+    currentThread->Yield();
+
+    DEBUG('t', "Count == %d\n", count);
+    if(count == numberOfThreads)
+    {
+        lockBarrier->Release();
+    }
+    lockBarrier->Acquire();
+    lockBarrier->Release();
+#endif // HW1_LOCKS
 
     val = SharedVariable;
     printf("Thread %d sees final value %d\n", which, val);

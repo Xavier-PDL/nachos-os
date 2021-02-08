@@ -98,7 +98,6 @@ List::Append(void *item)
 //	"item" is the thing to put on the list, it can be a pointer to 
 //		anything.
 //----------------------------------------------------------------------
-
 void
 List::Prepend(void *item)
 {
@@ -120,7 +119,6 @@ List::Prepend(void *item)
 // Returns:
 //	Pointer to removed item, NULL if nothing on the list.
 //----------------------------------------------------------------------
-
 void *
 List::Remove()
 {
@@ -136,7 +134,6 @@ List::Remove()
 //
 //	"func" is the procedure to apply to each element of the list.
 //----------------------------------------------------------------------
-
 void
 List::Mapcar(VoidFunctionPtr func)
 {
