@@ -128,6 +128,7 @@ void Lock::Acquire()
     } 
     DEBUG('t', "[SYNC] Lock acquired: %s\n", name);
     bLocked = true;
+    pThread = currentThread;
     
     (void) interrupt->SetLevel(oldLevel);	// re-enable interrupts
 #endif
@@ -139,10 +140,16 @@ void Lock::Release()
     Thread *thread;
     IntStatus oldLevel = interrupt->SetLevel(IntOff);
 
-    thread = (Thread *)queue->Remove();
-    if (thread != NULL)	   // make thread ready, consuming the V immediately
-        scheduler->ReadyToRun(thread);
-    bLocked = false;
+    DEBUG('t', "[SYNC] Attempting to release lock: %s\n", name);
+    if(pThread == currentThread)
+    {
+        DEBUG('t', "[SYNC] Releasing lock: %s\n", name);
+        pThread = nullptr;
+        thread = (Thread *)queue->Remove();
+        if (thread != NULL)	   // make thread ready, consuming the V immediately
+            scheduler->ReadyToRun(thread);
+        bLocked = false;
+    }
     (void) interrupt->SetLevel(oldLevel);
 #endif
 }

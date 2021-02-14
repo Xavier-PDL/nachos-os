@@ -80,6 +80,7 @@ class Lock {
   private:
     const char* name;				// for debugging
     // plus some other stuff you'll need to define
+    Thread* pThread = nullptr;
     bool bLocked = false;
     List *queue;       // threads waiting in P() for the value to be > 0
 };

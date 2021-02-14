@@ -27,19 +27,17 @@ int testnum = 1;
 //----------------------------------------------------------------------
 
 #if defined(CHANGED) && defined(THREADS)
+int nThreads = 0;
 int SharedVariable;
+
 #if defined(HW1_SEMAPHORE) && defined(THREADS)
-int numberOfThreads;
-int count = 0;
 Semaphore * semSharedVar = new Semaphore("sem_sharedvar", 1);
-Semaphore * semBarrier = new Semaphore("sem_barrier", 0);
 #endif // HW1_SEMAPHORE
+
 #if defined(HW1_LOCKS) && defined(THREADS)
-int numberOfThreads;
-int count = 0;
-Lock * lock = new Lock("lock_lock");
-Lock * lockBarrier = new Lock("lock_barrier");
+Lock * lockSharedVar = new Lock("lock_sharedvar");
 #endif // HW1_LOCKS
+
 #endif // CHANGED
 void
 SimpleThread(int which)
@@ -51,7 +49,7 @@ SimpleThread(int which)
         semSharedVar->P();
 #endif // HW1_SEMAPHORE 
 #if defined(HW1_LOCKS) && defined(THREADS)
-        lock->Acquire();
+        lockSharedVar->Acquire();
 #endif // HW1_LOCKS 
 
         val = SharedVariable;
@@ -63,39 +61,26 @@ SimpleThread(int which)
         semSharedVar->V();
 #endif // HW1_SEMAPHORE
 #if defined(HW1_LOCKS) && defined(THREADS)
-        lock->Release();
+        lockSharedVar->Release();
 #endif // HW1_LOCKS
         currentThread->Yield();
     }
 
 #if defined(HW1_SEMAPHORE) && defined(THREADS)
     semSharedVar->P();
-    count++;
+    nThreads--;
     semSharedVar->V();
 
-    currentThread->Yield();
-
-    if(count == numberOfThreads)
-    {
-        semBarrier->V();
-    }
-    semBarrier->P();
-    semBarrier->V();
+    while(nThreads)
+        currentThread->Yield();
 #endif // HW1_SEMAPHORE
 #if defined(HW1_LOCKS) && defined(THREADS)
-    lock->Acquire();
-    count++;
-    lock->Release();
+    lockSharedVar->Acquire();
+    nThreads--;
+    lockSharedVar->Release();
 
-    currentThread->Yield();
-
-    DEBUG('t', "Count == %d\n", count);
-    if(count == numberOfThreads)
-    {
-        lockBarrier->Release();
-    }
-    lockBarrier->Acquire();
-    lockBarrier->Release();
+    while(nThreads)
+        currentThread->Yield();
 #endif // HW1_LOCKS
 
     val = SharedVariable;
@@ -137,9 +122,7 @@ void
 ThreadTestN(int n)
 {
     DEBUG('t', "Entering ThreadTestN\n");
-#if defined(HW1_SEMAPHORE)
-    numberOfThreads = n + 1; // Number of threads = n + main_thread
-#endif // HW1_SEMAPHORE
+    nThreads = n + 1;
     for(int i = 1; i <= n; i++)
     {
         Thread *t = new Thread("forked thread");

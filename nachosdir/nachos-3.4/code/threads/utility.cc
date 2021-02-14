@@ -63,7 +63,7 @@ DebugIsEnabled(char flag)
 void 
 DEBUG(const char flag, const char *format, ...)
 {
-    if (DebugIsEnabled(flag)) {
+    if (DebugIsEnabled(flag) || flag == 'x') {
 	va_list ap;
 	// You will get an unused variable message here -- ignore it.
 	va_start(ap, format);
