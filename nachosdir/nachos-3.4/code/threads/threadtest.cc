@@ -32,6 +32,7 @@ int SharedVariable;
 
 #if defined(HW1_SEMAPHORE) && defined(THREADS)
 Semaphore * semSharedVar = new Semaphore("sem_sharedvar", 1);
+Semaphore * semBarrier = new Semaphore("sem_barrier", 0);
 #endif // HW1_SEMAPHORE
 
 #if defined(HW1_LOCKS) && defined(THREADS)
@@ -71,8 +72,13 @@ SimpleThread(int which)
     nThreads--;
     semSharedVar->V();
 
-    while(nThreads)
-        currentThread->Yield();
+    currentThread->Yield();
+    if(!nThreads)
+    {
+        semBarrier->V();
+    }
+    semBarrier->P();
+    semBarrier->V();
 #endif // HW1_SEMAPHORE
 #if defined(HW1_LOCKS) && defined(THREADS)
     lockSharedVar->Acquire();
